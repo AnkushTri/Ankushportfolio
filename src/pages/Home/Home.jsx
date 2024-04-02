@@ -15,7 +15,7 @@ const [isDarkMode, setIsDarkMode] = useState(false);
 const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
   return (
-    <div className="w-[100%] mx-auto">
+    <div className="w-[100%] mx-auto xsm:overflow-x-hidden">
       <div>
         <HeroSection />
       </div>

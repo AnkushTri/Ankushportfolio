@@ -3,15 +3,15 @@ import React from 'react'
 const About = () => {
   return (
     <div className="py-[5%] border bg-[#f1efef] relative">
-      <div className="w-[10%] mx-auto">
+      <div className="w-[10%] mx-auto xsm:w-[30%]">
         <button className="bg-[#fcf9f9] rounded-lg px-4 py-1">About Me</button>
       </div>
-      <div className="flex px-[5%] py-5">
-        <div className="flex-1">
+      <div className="flex px-[5%] py-5 xsm:flex-col">
+        <div className="flex-1 xsm:w-[90%] mx-auto">
           <img
             src="/anku.jpg"
             alt="anku"
-            className="w-[55%] aspect-[3/3.6] rounded relative z-50 border ml-10 shadow-md shadow-[#77c7b6] my-10"
+            className="w-[55%] aspect-[3/3.6] rounded relative z-50 border ml-10 shadow-md shadow-[#77c7b6] my-10 xsm:w-[100%] ml-0"
           />
         </div>
         <div className="flex-1 text-justify">

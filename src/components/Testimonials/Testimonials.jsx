@@ -21,14 +21,16 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="py-[5%] px-[5%] border bg-[#f1efef] relative">
-      <div className="w-[10%] mx-auto">
+    <div className="py-[10%] px-[5%] border bg-[#f1efef] relative  xsm:w-[100%]">
+      <div className="w-[10%] mx-auto xsm:w-[30%]">
         <button className="bg-[#fcf9f9] rounded-lg px-4 py-1">
           Testimonilas
         </button>
       </div>
-      <p className="text-center my-2">Nice things people have said about me:</p>
-      <div className="flex gap-[4%] mt-8 ">
+      <p className="text-center my-2 xsm:w-[90%] font-black text-[1.2rem]">
+        Nice things people have said about me:
+      </p>
+      <div className="flex gap-[4%] mt-8 xsm:flex-col gap-10 w-[90%] mx-auto">
         {testimaonials?.map((el) => {
           return (
             <div

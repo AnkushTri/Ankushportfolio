@@ -9,10 +9,12 @@ const Experience = () => {
           Experience
         </button>
       </div>
-      <p className="text-center my-2">
+      <p className="text-center my-2 xsm:text-[1.2rem] font-black">
         Here is a quick summary of my most recent experiences:
       </p>
-      <div className="flex w-[70%] mx-auto bg-white px-8 py-6 my-10 justify-between rounded-lg shadow-lg ">
+
+      {/* first expericence section */}
+      <div className="flex w-[70%] mx-auto bg-white px-8 py-6 my-10 justify-between rounded-lg shadow-lg xsm:flex-col w-[90%] mx-auto">
         <div className="flex-1">
           <h1 className="text-[2rem] text-[#5ff75f] text-bolder">
             Hoping Minds
@@ -41,7 +43,9 @@ const Experience = () => {
           <p className="ml-8">July 2024 - Present</p>
         </div>
       </div>
-      <div className="flex w-[70%] mx-auto bg-white px-8 py-6 my-5 justify-between rounded-lg shadow-lg ">
+
+      {/* second expericence section*/}
+      <div className="flex w-[70%] mx-auto bg-white px-8 py-6 my-5 justify-between rounded-lg shadow-lg xsm:flex-col w-[90%] mx-auto">
         <div className="flex-1">
           <h1 className="text-[2rem] text-[#5ff75f] text-bolder">
             O7 Services

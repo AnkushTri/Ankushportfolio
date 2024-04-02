@@ -9,8 +9,8 @@ import { BsLinkedin } from "react-icons/bs";
 
 const HeroSection = () => {
   return (
-    <div className="flex px-[5%] justify-between py-[5%] gap-5 ">
-      <div className="w-[65%]">
+    <div className="flex px-[5%] justify-between py-[5%] gap-5 xsm:flex-col ">
+      <div className="w-[65%]  xsm:w-[90%] mx-auto order-2">
         <h1 className="text-[2.5rem] font-bold py-3">
           Hi, I’m Ankush Kumar 👋
         </h1>
@@ -37,33 +37,33 @@ const HeroSection = () => {
           <a href="https://github.com/AnkushTri">
             <FiGithub />
           </a>
-          <a href="https://linkedin.com/ankushkumar5" target="_anku_linkedin">
+          <a
+            href="https://linkedin.com/in/ankushkumar5"
+            target="_anku_linkedin"
+          >
             <BsLinkedin />
           </a>
-          <a
-            href="https://https://www.instagram.com/ankush13703/"
-            target="_anku_insta"
-          >
+          <a href="https://www.instagram.com/ankush13703/" target="_anku_insta">
             {" "}
             <FiInstagram />
           </a>
-          <a href="">
+          <a href="https://www.sololearn.com/en/profile/22062111">
             {" "}
             <SiSololearn />
           </a>
-          <a href="">
+          <a href="https://twitter.com/AnkushK35349348">
             {" "}
             <FiTwitter />
           </a>
         </div>
       </div>
-      <div className="w-[35%] h-[50vh] ">
+      <div className="w-[35%] ralative xsm:w-[90%] mx-auto">
         <img
           src="/anku.jpg"
           alt="anku"
-          className="w-[45%] aspect-[3/3.8] rounded relative z-50 border mx-auto my-0"
+          className="w-[45%] aspect-[3/3.8] rounded relative z-50 border mx-auto my-0 p-1 bg-white xsm:w-[100%] "
         />
-        <div className=" w-[45%] bg-slate-400 h-inherit border aspect-[3/3.8]  translate-x-[75%] translate-y-[-90%]"></div>
+        <div className=" w-[14%] h-[40%] absolute bg-slate-400  border translate-x-[72%] translate-y-[-92%] xsm:hidden"></div>
       </div>
     </div>
   );

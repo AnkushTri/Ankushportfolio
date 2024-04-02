@@ -10,17 +10,17 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="px-[5%] py-[5%]">
-      <div className="w-[15%] mx-auto">
+    <div className="px-[5%] py-[5%] xsm:w-[90%] mx-auto">
+      <div className="w-[15%] mx-auto xsm:w-[42%]">
         <button className="bg-[#fcf9f9] rounded-lg px-4 py-1">
           Get in touch
         </button>
       </div>
-      <p className="text-center my-2">
+      <p className="text-center my-2 xsm:font-black text-[1.2rem]">
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </p>
-      <div className="w-[25%]  mx-auto text-[1.5rem]">
+      <div className="w-[25%]  mx-auto text-[1.5rem] xsm:w-[90%] text-[1rem]">
         <div className="flex gap-6 mt-8 items-center ">
           <div>
             <AiTwotoneMail />
@@ -43,21 +43,24 @@ const Contact = () => {
           <a href="https://github.com/AnkushTri">
             <FiGithub />
           </a>
-          <a href="https://linkedin.com/ankushkumar5" target="_anku_linkedin">
+          <a
+            href="https://linkedin.com/in/ankushkumar5"
+            target="_anku_linkedin"
+          >
             <BsLinkedin />
           </a>
           <a
-            href="https://https://www.instagram.com/ankush13703/"
+            href="https://www.instagram.com/ankush13703/"
             target="_anku_insta"
           >
             {" "}
             <FiInstagram />
           </a>
-          <a href="">
+          <a href="https://www.sololearn.com/en/profile/22062111">
             {" "}
             <SiSololearn />
           </a>
-          <a href="">
+          <a href="https://twitter.com/AnkushK35349348">
             {" "}
             <FiTwitter />
           </a>

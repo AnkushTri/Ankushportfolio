@@ -23,7 +23,8 @@ const Works = () => {
       },
       {
         title: "Triank Chat",
-        description: "Triank Chat is online social media plateform ,where you can interact with world by using the gmail account, also option to share the files",
+        description:
+          "Triank Chat is online social media plateform ,where you can interact with world by using the gmail account, also option to share the files, is online social media plateform ,where you can interact with world by using the gmail account, also option to share the files ",
         image: "a.jpg",
         skills: [
           { title: "React" },
@@ -38,7 +39,7 @@ const Works = () => {
       {
         title: "Hopingminds.in",
         description:
-          "Hopingminds.in is a training institute that provides courses with a pay-after-placement model. With a focus on practical skills and industry-relevant training, Hopingminds.in aims to empower students and professionals by offering high-quality education without upfront fees.",
+          "Hopingminds.in is a training institute that provides courses with a pay-after-placement model. With a focus on practical skills and industry-relevant training, Hopingminds. in aims to empower students and professionals by offering high-quality education without upfront fees.  model. With a focus on practical skills and industry-relevant training",
         image: "hoping.png",
         skills: [
           { title: "React" },
@@ -70,10 +71,10 @@ const Works = () => {
 
   return (
     <div className="px-[5%]">
-      <div className="w-[10%] mt-[5%] mx-auto">
+      <div className="w-[10%] mt-[5%] mx-auto xsm:w-[20%]">
         <button className="bg-[#fcf9f9] rounded-lg px-4 py-1">Work</button>
       </div>
-      <p className="text-center my-2">
+      <p className="text-center my-2 xsm:w-[90%] font-black text-[1.2rem]">
         Some of the noteworthy projects I have built:
       </p>
       <div>
